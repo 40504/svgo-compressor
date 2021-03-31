@@ -12,7 +12,7 @@
 
 module.exports = {
   "comment": "This is the settings file for the SVGO Compressor Plugin. For more info, please check <https://github.com/BohemianCoding/svgo-compressor>",
-  "pretty": true,
+  "pretty": false,
   "indent": 2,
   "floatPrecision": 3,
   "plugins":[
@@ -53,7 +53,7 @@ module.exports = {
     { "name": "sortAttrs", enabled: true },
     { "name": "removeTitle", enabled: true },
     { "name": "removeDesc", enabled: true, "params": { "removeAny": true } },
-    { "name": "removeDimensions", enabled: false },
+    { "name": "removeDimensions", enabled: true },
     { "name": "removeAttrs", enabled: false },
     { "name": "removeAttributesBySelector", enabled: false },
     { "name": "removeElementsByAttr", enabled: false },
