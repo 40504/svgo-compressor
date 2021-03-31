@@ -1,3 +1,5 @@
+https://github.com/40504/svgo-compressor/blob/develop/src/defaultConfig.js
+
 # SVGO Compressor
 
 A Plugin that compresses SVG assets using SVGO, right when you export them.
